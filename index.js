@@ -20,7 +20,7 @@ app.get('/coin/:coinName', async (req, res) => {
       res.status(404).send('El nombre de la moneda no fue encontrado en la base de datos por favor usa tu cabeza y escribe un nombre valido!');
     }
   } catch (error) {
-    res.status(500).send('Error al obtener el precio de la moneda por favor intenta de nuevo más tarde porque no quiero hacer nada ahorita!');
+    res.status(500).send('El nombre de la moneda no fue encontrado en la base de datos por favor usa tu cabeza y escribe un nombre valido!');
   }
 });
 
