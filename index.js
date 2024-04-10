@@ -95,7 +95,7 @@ app.use((err, req, res, next) => {
 
 // Iniciar el servidor
 app.listen(PORT, () => {
-  console.log(`Servidor iniciado y funcionando tan fino como el caviar en el puerto ${PORT}`);
+  console.log(`Servidor iniciado y funcionando tan fino como el vino español en el puerto ${PORT}`);
 });
 
 // Codificado unica y exclusivamente por: Andres Azcona 2024
