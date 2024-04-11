@@ -24,9 +24,9 @@ app.get('/coin/:coinName', async (req, res) => {
   }
 });
 
-// Ruta para obtener una lista de usuarios con un límite y orden específico
+// Ruta para obtener una lista de usuarios con un límite y orden específico para asi poder hacer un CRUD
 app.get('/users', (req, res) => {
-  let count = req.query.count ? parseInt(req.query.count) : 10;
+  let count = req.query.count ? parseInt(req.query.count) : 30;
   const sort = req.query.sort ? req.query.sort.toUpperCase() : 'ASC';
 
   // Aquí se simularía la obtención de la lista de usuarios de una base de datos esto se podria conectar a una base de datos noSQL como mongoDB
