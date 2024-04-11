@@ -1,5 +1,7 @@
 ![Proyecto Terminado](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKTnT9zsO6CEWFzGQ-U5gz4d0cVVM-hXXZS6HsUc_YYw&s)
 
+### Informacion de Prueba, Autenticacion y despliegue en las DOCS
+
 [![DOCS](https://gist.githubusercontent.com/cxmeel/0dbc95191f239b631c3874f4ccf114e2/raw/docs.svg)](https://github.com/DSAW-2024-1/parcial-segundo-corte-andresazcona/blob/master/DOCS.md)
 
 
