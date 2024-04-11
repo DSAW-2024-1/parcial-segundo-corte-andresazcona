@@ -22,10 +22,10 @@ app.get('/coin/:coinName', async (req, res) => {
       const priceUSD = data.priceUsd;
       res.send(`El precio en dólares de ${coinName} para el día de hoy es ${priceUSD}`);
     } else {
-      res.status(404).send('El nombre de la moneda no fue encontrado en la base de datos por favor usa tu cabeza y escribe un nombre valido!');
+      res.status(404).send('El nombre de la moneda no fue encontrado en la base de datos');
     }
   } catch (error) {
-    res.status(500).send('El nombre de la moneda no fue encontrado en la base de datos por favor usa tu cabeza y escribe un nombre valido!');
+    res.status(500).send('El nombre de la moneda no fue encontrado en la base de datos');
   }
 });
 
@@ -85,7 +85,7 @@ app.get('/users', (req, res) => {
 app.post('/users', (req, res) => {
   const { nombre, apellido, correo, ciudad = 'Bogotá', país = 'Colombia' } = req.body;
   if (!nombre || !apellido || !correo) {
-    return res.status(400).json({ error: 'Faltan campos obligatorios sherlock!' });
+    return res.status(400).json({ error: 'Faltan campos obligatorios' });
   }
   // Aquí se simularía la creación del usuario en una base de datos
   const newUser = { nombre, apellido, correo, ciudad, país };
@@ -95,7 +95,7 @@ app.post('/users', (req, res) => {
 // Manejador de errores
 app.use((err, req, res, next) => {
   console.error(err.stack);
-  res.status(500).send('Algo salió mal muy mal pana!');
+  res.status(500).send('Algo salió mal en el servidor, por favor intenta de nuevo más tarde');
 });
 
 // Iniciar el servidor
