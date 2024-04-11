@@ -7,6 +7,11 @@ const PORT = process.env.PORT || 3000;
 // Middleware para parsear el cuerpo de las solicitudes como JSON ya que el profe me dijo que iba a ser mas facil asi
 app.use(express.json());
 
+// Ruta para verificar que el backend está funcionando
+app.get('/', (req, res) => {
+  res.send('¡Backend funcionando!, Att: Andres Azcona');
+});
+
 // Ruta para obtener el precio de una moneda usando el nombre de la moneda de la API CoinCap
 app.get('/coin/:coinName', async (req, res) => {
   const coinName = req.params.coinName.toLowerCase();
