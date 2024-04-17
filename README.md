@@ -1,3 +1,12 @@
+![Proyecto Terminado](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKTnT9zsO6CEWFzGQ-U5gz4d0cVVM-hXXZS6HsUc_YYw&s)
+
+### Informacion de Prueba, Autenticacion y despliegue en las DOCS
+
+[![DOCS](https://gist.githubusercontent.com/cxmeel/0dbc95191f239b631c3874f4ccf114e2/raw/docs.svg)](https://github.com/DSAW-2024-1/parcial-segundo-corte-andresazcona/blob/master/DOCS.md)
+
+
+
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/KsHSEX27)
 ## Examen de Desarrollo Backend con Express
 
 ### Instrucciones Generales
